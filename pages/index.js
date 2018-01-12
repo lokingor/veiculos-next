@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Router from 'next/router'
 import Layout from '../components/Layout'
-import VehiclesRepository from '../data/Vehicles'
+import VehiclesRepository from '../repositories/VehiclesRepository'
 
 const checks = {}
 var srch = ""
